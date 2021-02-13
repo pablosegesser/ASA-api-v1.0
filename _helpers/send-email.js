@@ -3,7 +3,7 @@ const config = require('config.json');
 const emailFrom = process.env.EMAIL_FROM;
 const smtpOptions = {
     "host": process.env.HOST,
-    "port": 587,
+    "port": 465,
     "secure":true,
     "auth": {
         "user": process.env.SMTP_USER,
