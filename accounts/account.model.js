@@ -15,7 +15,8 @@ const schema = new Schema({
             apellido:{type:String},
             fechaNac:{type:Date},
             edad:{type:Number},
-            genero:{type:String}
+            genero:{type:String},
+            idTutor:{type:String}
         }
     ],
     role: { type: String, required: true },

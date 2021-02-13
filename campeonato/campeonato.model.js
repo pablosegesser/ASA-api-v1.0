@@ -19,7 +19,8 @@ const schema = new Schema({
                 nombre: {type:String},
                 apellido: {type: String},
                 edad: {type:Number},
-                id: {type:String}
+                id: {type:String},
+                idTutor:{type:String}
             }
                 ]               
         }
